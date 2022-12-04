@@ -104,8 +104,7 @@
 #include "audit.h"
 #include "avc_ss.h"
 
-
-struct selinux_state selinux_state __rticdata;
+struct selinux_state selinux_state;
 
 #ifdef CONFIG_LOD_SEC
 #ifdef CONFIG_KDP_CRED
