@@ -61,6 +61,7 @@
 #define SDE_DRM_BLEND_OP_PREMULTIPLIED  2
 #define SDE_DRM_BLEND_OP_COVERAGE       3
 #define SDE_DRM_BLEND_OP_MAX            4
+#define FOD_PRESSED_LAYER_ZORDER 0x20000000u
 
 /**
  * Bit masks for "src_config" property
